@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+
+	background: rgb(0,4,92);
+	background: linear-gradient(90deg, rgba(0,4,92,1) 0%, rgba(23,142,0,1) 51%, rgba(204,173,0,1) 100%);
+
+}
+
+.form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  margin: 10%;
+}
+.labels{
+  margin: 10px;
+}
+.inputs{
+  border-radius: 10px;
+  height: 20px;
+}
+textarea{
+  border-radius: 10px;
+}
